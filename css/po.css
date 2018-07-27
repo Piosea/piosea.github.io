@@ -9,22 +9,21 @@ body {
 
 .text {
     position: absolute;
-    /*必ず必要*/
     z-index: 1;
-    /*必ず必要*/
     text-align: center;
-    width: 75%;
+    width: 65%;
     padding: 0 auto;
-    margin: 13%;
+    margin: 17%;
     margin-top: 300px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #888;
+    background-color: rgba(230, 255, 255, 0.8);
+    color: #555;
 }
 
 .youtube {
     position: relative;
     width: 100%;
     padding-top: 56.25%;
+    margin: 0px;
 }
 
 .youtube iframe {
@@ -55,8 +54,8 @@ body {
     margin-top: 30px;
     margin-left: 30px;
     line-height: 50px;
-
 }
+
 
 .menu a {
     text-decoration: none;
@@ -64,15 +63,19 @@ body {
     font-weight: bold;
 }
 
+.menu a li:hover {
+    background-color: gray;
+
+}
+
 .icons {
     z-index: 1;
     display: flex;
-
-    table-layout: fixed;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px;
     list-style: none;
-    margin: 0 auto;
-    padding-left: 30%;
-    padding-right: 20%;
+
 }
 
 .icons img {
@@ -81,11 +84,12 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  .icons {
+    .icons {
         flex-direction: column;
-
+        width: 25%;
+        padding-left: 42%;
     }
-  
+
 }
 
 @media screen and (max-width: 750px) {
@@ -99,6 +103,30 @@ body {
         margin-top: 5px;
         margin-left: 25%;
     }
+}
+
+.worklist {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 65%;
+    padding: 0 auto;
+    margin: 18%;
+    margin-top: 300px;
+    display: grid;
+    grid-gap: 010px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.item {
+    border-radius: 25px;
+    background-color: rgba(230, 255, 255, 0.8);
+    color: #000000;
+    padding: 15px;
+}
+
+.worklist a :hover {
+    background-color: rgba(200, 255, 255, 1);
 }
 
 canvas {
