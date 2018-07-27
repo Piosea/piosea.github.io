@@ -5,6 +5,8 @@ html header {
 
 body {
     background: url(../images/fractalice.png) no-repeat center top #FFFFFF;
+    max-width: 100%;
+    height: auto;
 }
 
 .text {
@@ -104,6 +106,7 @@ body {
         margin-left: 25%;
     }
 }
+
 
 .worklist {
     position: absolute;
