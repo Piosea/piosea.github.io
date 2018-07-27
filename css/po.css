@@ -39,12 +39,7 @@ body header {
     height: 100% !important;
 }
 
- .text img{
-     position: relative;
-    width: 100%;
-    height: auto;
-    margin: 0px;
-}
+
 .menu {
     padding: 0px;
     margin: 0px;
@@ -94,6 +89,7 @@ body header {
 .icons img {
     display: flex;
     padding: 5px;
+
 }
 
 .worklist {
@@ -128,37 +124,37 @@ canvas {
 
 
 
-@media screen and (max-width: 850px) {
 
+@media screen and (max-width: 740px) {
 
-}
-
-@media screen and (max-width: 750px) {
-    
-    .img{
-    width: 100%;
-    height:auto;
+    .img {
+        width: 100%;
+        height: auto;
     }
-    
+
     .text {
         width: 80%;
         margin-top: 150px;
-        margin-left:10%;
+        margin-left: 10%;
     }
-
-        .icons  {
+    .text img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .icons {
         flex-direction: column;
         justify-content: center;
         width: 100%;
-      
-    }
-    .icons img{
-        margin-left: 30%;
-    }
-    
 
-    
-    
+    }
+    .icons img {
+        margin-left: 30%;
+        width: 100px;
+        height: 100px;
+    }
+
     .menu {
         flex-direction: column;
 
@@ -176,9 +172,9 @@ canvas {
         height: 50px;
         margin-top: 5px;
     }
-        .worklist {
+    .worklist {
         width: 80%;
         margin-top: 150px;
-        margin-left:10%;
+        margin-left: 10%;
     }
 }
