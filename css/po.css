@@ -90,8 +90,6 @@ body header {
     padding: 5px;
 }
 
-
-
 .worklist {
     position: absolute;
     z-index: 1;
@@ -125,11 +123,7 @@ canvas {
 
 
 @media screen and (max-width: 850px) {
-    .icons {
-        flex-direction: column;
-        width: 25%;
-        padding-left: 42%;
-    }
+
 
 }
 
@@ -140,11 +134,19 @@ canvas {
         margin-left:10%;
     }
 
-    .worklist {
-        width: 80%;
-        margin-top: 150px;
-        margin-left:10%;
+        .icons  {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+      
     }
+    .icons img{
+        margin-left: 30%;
+    }
+    
+
+    
+    
     .menu {
         flex-direction: column;
 
@@ -161,5 +163,10 @@ canvas {
         width: 100px;
         height: 50px;
         margin-top: 5px;
+    }
+        .worklist {
+        width: 80%;
+        margin-top: 150px;
+        margin-left:10%;
     }
 }
