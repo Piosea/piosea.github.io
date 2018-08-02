@@ -2,7 +2,7 @@ var angle = 0; // 角度
 var r = 1000; // 円周の半径
 
 function setup() { // 最初に実行される関数
-    createCanvas(1000,1000); // canvasの作成
+    createCanvas(100,100); // canvasの作成
     noStroke();
 }
 
