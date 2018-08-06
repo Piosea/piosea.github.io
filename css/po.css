@@ -99,7 +99,7 @@ body header {
     width: 65%;
     padding: 0 auto;
     margin: 18%;
-    margin-top: 300px;
+    margin-top: 200px;
     display: grid;
     grid-gap: 010px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
